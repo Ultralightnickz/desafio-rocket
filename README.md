@@ -38,7 +38,7 @@ Este projeto é uma solução para o desafio proposto, que consiste em:
 
 ---
 
-## 🧹 Arquivos de Ignore
+## Arquivos de Ignore
 
 - `.gitignore`: evita versionar arquivos desnecessários como `__pycache__/`, `.env`, e dependências locais.
 - `.dockerignore`: evita copiar arquivos desnecessários para o build da imagem Docker, melhorando performance e segurança.
