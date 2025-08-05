@@ -26,13 +26,22 @@ Este projeto é uma solução para o desafio proposto, que consiste em:
 
 ```
 ├── app/
-│   ├── main.py
-│   └── requirements.txt
-├── Dockerfile
-├── docker-compose.yml
+│ ├── main.py
+│ └── requirements.txt
+├── .dockerignore
+├── .gitignore
 ├── .env
+├── Dockerfile
+├── docker-compose.yaml
 └── README.md
 ```
+
+---
+
+## 🧹 Arquivos de Ignore
+
+- `.gitignore`: evita versionar arquivos desnecessários como `__pycache__/`, `.env`, e dependências locais.
+- `.dockerignore`: evita copiar arquivos desnecessários para o build da imagem Docker, melhorando performance e segurança.
 
 ---
 
